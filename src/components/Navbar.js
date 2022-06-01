@@ -22,7 +22,7 @@ function Navbar() {
           <Link to="/lifecycle" className="nav-link" href="#">LifeCycle Comp</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+          <Link to="/contactus" className="nav-link" href="#">ContactUs</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
