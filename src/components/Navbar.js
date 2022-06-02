@@ -22,6 +22,12 @@ function Navbar() {
           <Link to="/lifecycle" className="nav-link" href="#">LifeCycle Comp</Link>
         </li>
         <li className="nav-item">
+          <Link to="/counterfunc" className="nav-link" href="#">Counter Func</Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/funcpagination" className="nav-link" href="#">Func Pagination</Link>
+        </li>
+        <li className="nav-item">
           <Link to="/contactus" className="nav-link" href="#">ContactUs</Link>
         </li>
         <li className="nav-item">

@@ -1,6 +1,7 @@
 import React from 'react'
 
 function FuncComp(props) {
+  
     console.log(props);
 
    let {courseName,Duration} = props;
