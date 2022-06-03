@@ -11,12 +11,12 @@ function Counter() {
         const [count,setCount]  = useState(0);
 
   return (
-    <div className='container'>
+    <>
         <h2>Counter</h2>
         <p>Count : {count}</p>
         <button className='btn btn-primary me-4' onClick={()=>{setCount(count+1)}}>Increment</button>
         <button className='btn btn-warning' onClick={()=>{setCount(count-1)}}>Decrement</button>
-    </div>
+    </>
   )
 }
 

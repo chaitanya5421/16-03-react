@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import ClassComp from './components/ClassComp';
 import FuncComp from './components/FuncComp';
@@ -8,7 +9,10 @@ import LifeCycleComp from './components/LifeCycleComp';
 import Pagination from './components/Pagination';
 import Navbar from './components/Navbar';
 import RouteComp from './components/RoutingComponents/RouteComp';
+import AppC from './components/Hooks/Context/AppC';
 
+
+export const UserContext = React.createContext();
 
 function App() {
   return (
@@ -21,6 +25,11 @@ function App() {
      {/* <Pagination /> */}
      <Navbar />
      <RouteComp />
+
+    {/* usecontext */}
+     {/* <UserContext.Provider value={"Chaitanya"}>
+        <AppC />
+     </UserContext.Provider> */}
     </div>
   );
 }
